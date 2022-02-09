@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml%22%3E
+<html xmlns="http://www.w3.org/1999/xhtml%22%3E">
 <head runat="server">
     <title>Home Page</title>
     <script type="text/javascript">

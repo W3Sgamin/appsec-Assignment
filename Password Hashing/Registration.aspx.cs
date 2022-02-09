@@ -103,6 +103,7 @@ namespace Password_Hashing
                             else
                             {
                                 lb_error1.Text = "Click 'Browse' to select the file to upload.";
+                                strFilePath = "";
                             }
 
                             string pwd = tb_pwd.Text.ToString().Trim();
@@ -128,10 +129,9 @@ namespace Password_Hashing
                             Key = cipher.Key;
                             IV = cipher.IV;
 
-                            lb_error1.Text = "Account Created";
-
 
                             createAccount();
+                            Response.Redirect("Login.aspx", false);
                         }
                         else
                         {

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcVkWUeAAAAAGwqaEcgsB5J7kanpYgeBhDMMWbM"</script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcVkWUeAAAAAGwqaEcgsB5J7kanpYgeBhDMMWbM"></script>
 </head>
 <body>
        <form id="form1" runat="server">
@@ -21,7 +21,7 @@
         <asp:Label ID="Label2" runat="server" Text="User ID/Email"></asp:Label>
                 </td>
                 <td class="style2">
-                    <asp:TextBox ID="tb_userid" runat="server" Height="16px" Width="280px">jayson@yahoo.com</asp:TextBox>
+                    <asp:TextBox ID="tb_userid" runat="server" Height="16px" Width="280px" TextMode="Email"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -29,7 +29,7 @@
         <asp:Label ID="Label3" runat="server" Text="Password"></asp:Label>
                 </td>
                 <td class="style2">
-                    <asp:TextBox ID="tb_pwd" runat="server" Height="16px" Width="281px" >P@ssw0rd1234</asp:TextBox>
+                    <asp:TextBox ID="tb_pwd" runat="server" Height="16px" Width="281px" TextMode="Password"></asp:TextBox>
                 </td>
             </tr>
                         <tr>

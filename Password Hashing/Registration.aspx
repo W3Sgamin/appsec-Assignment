@@ -66,7 +66,7 @@
                         <asp:Label ID="Label7" runat="server" Text="First Name"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="tb_fname" runat="server" Height="36px" Width="280px">wesley</asp:TextBox>
+                        <asp:TextBox ID="tb_fname" runat="server" Height="36px" Width="280px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -74,7 +74,7 @@
                         <asp:Label ID="Label8" runat="server" Text="Last Name"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="tb_lname" runat="server" Height="36px" Width="280px">loh</asp:TextBox>
+                        <asp:TextBox ID="tb_lname" runat="server" Height="36px" Width="280px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -82,7 +82,7 @@
                         <asp:Label ID="Label5" runat="server" Text="Credit Card Number"></asp:Label>
                     </td>
                     <td class="style7">
-                        <asp:TextBox ID="tb_creditcard" runat="server" Height="32px" Width="281px">1234 1234 1234 1234</asp:TextBox>
+                        <asp:TextBox ID="tb_creditcard" runat="server" Height="32px" Width="281px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -90,7 +90,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Email (UserID)"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="tb_userid" runat="server" Height="36px" Width="280px">jayson@yahoo.com</asp:TextBox>
+                        <asp:TextBox ID="tb_userid" runat="server" Height="36px" Width="280px" TextMode="Email"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +98,7 @@
                         <asp:Label ID="Label3" runat="server" Text="Password"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:validate()">P@ssw0rd1234</asp:TextBox>
+                        <asp:TextBox ID="tb_pwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:validate()" TextMode="Password"></asp:TextBox>
                         <asp:Label ID="passwordcheck" runat="server"></asp:Label>
                     </td>
                 </tr>
@@ -107,7 +107,7 @@
                         <asp:Label ID="Label4" runat="server" Text="Confirm Password"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="tb_cfpwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:matchpassword()"></asp:TextBox>
+                        <asp:TextBox ID="tb_cfpwd" runat="server" Height="32px" Width="281px" onkeyup="javascript:matchpassword()" TextMode="Password"></asp:TextBox>
                         <asp:Label ID="passwordmatch" runat="server"></asp:Label>
                     </td>
                 </tr>
@@ -116,7 +116,7 @@
                         <asp:Label ID="Label6" runat="server" Text="Date of Birth"></asp:Label>
                     </td>
                     <td class="style2">
-                        <asp:TextBox ID="dateofbirth" runat="server" Height="32px" Width="281px">1-1-11</asp:TextBox>
+                        <asp:TextBox ID="dateofbirth" runat="server" Height="32px" Width="281px" TextMode="Date"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
